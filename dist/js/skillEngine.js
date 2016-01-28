@@ -14411,8 +14411,8 @@ SPE.prototype.icons = {
     spinner: '<i class="fa fa-spinner fa-pulse fa-lg pull-right skillLoading"></i>',
     angle_double_right: '<i class="fa fa-angle-double-right pull-right skillArrow"></i>',
     skill: {
-        0: '<i class="fa fa-trophy text-success"></i> ',
-        1: '<i class="fa fa-tree text-primary"></i> ',
+        0: '<i class="fa fa-file text-success"></i> ',//trophy
+        1: '<i class="fa fa-folder text-primary"></i> ',//tree
         3: '<i class="fa fa-sun-o text-info"></i> ',
         4: '<i class="fa fa-pagelines text-warning"></i> '
     }
@@ -14754,6 +14754,7 @@ jQuery.fn.skillEngine = function (options) {
         return new SPEmacro(this, options);
     }
 };
+
 var SPEmacro = function ($element, options) {
 
     /* Element */
