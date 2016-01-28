@@ -14874,7 +14874,7 @@ SPEmacro.prototype.html = {
                 html += '</h4>';
 
                 html += '<div class="col-md-6 col-md-offset-2" style="display:inline-block"> ';
-                //html += '<select class="skillSearch" style="width:100%;margin-left:100px;"/>';
+                html += '<select class="skillSearch" style="width:100%;margin-left:100px;"/>';
                 html += '</div>';
             }
 
@@ -14922,13 +14922,13 @@ SPEmacro.prototype.html = {
 
                 html += '</div>';
 
-                /* Serach */
+                /* Serach *
                 if (properties.isSearch) {
 
                     html += '<div class="skillSearch text-center">';
                     html += '<select class="skillSearch" style="width: 100%"/>';
                     html += '</div>';
-                }
+                }*/
 
                 html += '</div>';
 
