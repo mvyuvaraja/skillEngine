@@ -15159,7 +15159,7 @@ SPEmacro.prototype.init = function (self) {
 //        }
 //    });
 
-    $.each(self.options.type, function (index, type) {
+    /*$.each(self.options.type, function (index, type) {
 
         self.fetch.skill(self, 0, type, 0);
 
@@ -15170,7 +15170,7 @@ SPEmacro.prototype.init = function (self) {
         }
 
         $('div[data-level="0"]').show();
-    });
+    });*/
 
     if (!$.isEmptyObject(skills) && $.isEmptyObject(self.options.data)) {
 
