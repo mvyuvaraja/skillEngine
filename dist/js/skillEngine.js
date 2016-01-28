@@ -14411,10 +14411,10 @@ SPE.prototype.icons = {
     spinner: '<i class="fa fa-spinner fa-pulse fa-lg pull-right skillLoading"></i>',
     angle_double_right: '<i class="fa fa-angle-double-right pull-right skillArrow"></i>',
     skill: {
-        0: '<i class="fa fa-certificate text-primary"></i> ',//trophy
+        0: '<i class="fa fa-star text-primary"></i> ',//trophy
         1: '<i class="fa fa-folder text-primary"></i> ',//tree
         3: '<i class="fa fa-sun-o text-info"></i> ',
-        4: '<i class="fa fa-certificate text-primary"></i> '//pagelines
+        4: '<i class="fa fa-folder-o text-primary"></i> '//pagelines
     }
 };
 /******************************************************************************/
