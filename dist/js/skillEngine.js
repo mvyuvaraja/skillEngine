@@ -15775,7 +15775,7 @@ SPEmacro.prototype.event = function (self) {
             
             "hide.bs.collapse":function(e){
                 
-                void 0;
+                //console.log(e);
                 
                 $(e.target).prev('.panel-heading')
                     .find("i.fa")
@@ -15870,6 +15870,7 @@ SPEmacro.prototype.plugin = {
                     autoHideScrollbar: true,
                     autoExpandScrollbar: true,
                     scrollbarPosition: "inside",
+					scrollInertia: 1,
                     advanced: {
                         updateOnContentResize: true,
                         updateOnBrowserResize: true
