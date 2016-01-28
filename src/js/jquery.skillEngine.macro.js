@@ -1103,7 +1103,7 @@ SPEmacro.prototype.plugin = {
             autoHideScrollbar: true,
             autoExpandScrollbar: false,
             scrollbarPosition: "inside",
-            scrollInertia: 5
+            scrollInertia: 1
         });
 
         $('#sectionSkillEdit .panel-body')
