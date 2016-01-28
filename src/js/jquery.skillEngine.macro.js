@@ -402,18 +402,18 @@ SPEmacro.prototype.init = function (self) {
 //        }
 //    });
 
-    /*$.each(self.options.type, function (index, type) {
+    $.each(self.options.type, function (index, type) {
 
         self.fetch.skill(self, 0, type, 0);
 
         if (self.defaults[type].isSearch) {
 
             self.plugin.select22(self);
-            self.plugin.select2(self, $('#' + self.defaults[type].id + ' div[data-level="0"]'));
+            //self.plugin.select2(self, $('#' + self.defaults[type].id + ' div[data-level="0"]'));
         }
 
         $('div[data-level="0"]').show();
-    });*/
+    });
 
     if (!$.isEmptyObject(skills) && $.isEmptyObject(self.options.data)) {
 
