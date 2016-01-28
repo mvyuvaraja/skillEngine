@@ -1103,7 +1103,7 @@ SPEmacro.prototype.plugin = {
             autoHideScrollbar: true,
             autoExpandScrollbar: false,
             scrollbarPosition: "inside",
-            scrollInertia: 1
+            mouseWheel: {scrollAmount: '100px'}
         });
 
         $('#sectionSkillEdit .panel-body')
@@ -1113,7 +1113,7 @@ SPEmacro.prototype.plugin = {
                     autoHideScrollbar: true,
                     autoExpandScrollbar: true,
                     scrollbarPosition: "inside",
-					scrollInertia: 1,
+					mouseWheel: {scrollAmount: '100px'},
                     advanced: {
                         updateOnContentResize: true,
                         updateOnBrowserResize: true
