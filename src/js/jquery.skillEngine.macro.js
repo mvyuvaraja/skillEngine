@@ -166,12 +166,12 @@ SPEmacro.prototype.html = {
                 html += '</div>';
 
                 /* Serach */
-                if (properties.isSearch) {
+                /*if (properties.isSearch) {
 
                     html += '<div class="skillSearch text-center">';
                     html += '<select class="skillSearch" style="width: 100%"/>';
                     html += '</div>';
-                }
+                }*/
 
                 html += '</div>';
 
