@@ -117,7 +117,7 @@ SPEmacro.prototype.html = {
                 html += '</h4>';
 
                 html += '<div class="col-md-6 col-md-offset-2" style="display:inline-block"> ';
-                html += '<select class="skillSearch" style="width:100%;margin-left:100px;"/>';
+                //html += '<select class="skillSearch" style="width:100%;margin-left:100px;"/>';
                 html += '</div>';
             }
 
@@ -1169,7 +1169,7 @@ SPEmacro.prototype.plugin = {
                     return "No Skills Found <a href='#' class='spe-addUserSkill btn btn-danger'>Add </a>";
                 }
             },
-            minimumInputLength: 3,
+            minimumInputLength: 2,
         }).on("change", function (e) {
 
             var data = self.util.buildHierarchy(JSON.parse($(this).val()));
@@ -1284,7 +1284,7 @@ SPEmacro.prototype.plugin = {
             escapeMarkup: function (markup) {
                 return markup;
             },
-            minimumInputLength: 3,
+            minimumInputLength: 2,
             templateResult: formatItem,
             templateSelection: formatItemSelection,
             "language": {
